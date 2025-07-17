@@ -78,5 +78,3 @@ async def handle_single_coin(symbol):
     except Exception as e:
         await cl.Message(content=f"❌ Error: API might be down. Try again later.").send()
 
-if __name__ == "__main__":
-    cl.run()
